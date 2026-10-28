@@ -36,7 +36,7 @@
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   let blockTimer = null;
   if (blockHeight && heartbeat) {
-    let height = Number(blockHeight.dataset.baseHeight || blockHeight.textContent.replace(/\\D/g, "")) || 128430;
+    let height = Number(blockHeight.dataset.baseHeight || blockHeight.textContent.replace(/\D/g, "")) || 128430;
     const renderHeight = () => { blockHeight.textContent = height.toLocaleString("en-US"); };
     const startHeartbeat = () => {
       if (blockTimer || document.hidden) return;
