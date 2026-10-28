@@ -23,3 +23,11 @@
 @media(max-width:900px){.network-heartbeat{grid-template-columns:1fr 1fr;gap:13px}.heartbeat-readout:nth-of-type(2){border-left:0;padding-left:0}.heartbeat-note{text-align:left}}
 @media(max-width:680px){.network-heartbeat{padding:13px;gap:13px;margin-bottom:22px}.heartbeat-state{flex-wrap:wrap;gap:7px;font-size:8px}.heartbeat-state small{border-left:0;padding-left:0;width:100%;margin-left:14px}.heartbeat-readout{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding-left:12px}.heartbeat-label{font-size:7px}.heartbeat-readout strong{font-size:12px}.heartbeat-note{grid-column:1/-1;font-size:8px;border-top:1px solid #332e24;padding-top:9px}.hero-node-canvas{opacity:.6}}
 @media(prefers-reduced-motion:reduce){.heartbeat-dot{animation:none}.hero-node-canvas{opacity:.25}}
+
+/* Concept 01 — geometric branching Y monogram */
+.brand-mark{width:38px;height:38px;flex:0 0 auto;color:var(--gold);display:block}
+.brand-mark svg{display:block;width:100%;height:100%;overflow:visible;shape-rendering:geometricPrecision}
+.mini-mark{width:24px;height:24px;flex:0 0 24px;padding:2px;border:1px solid #65532f;color:var(--gold);display:grid;place-items:center}
+.mini-mark svg{display:block;width:100%;height:100%;shape-rendering:geometricPrecision}
+.core-emblem svg{color:var(--gold)}
+@media(max-width:680px){.brand-mark{width:32px;height:32px}}
